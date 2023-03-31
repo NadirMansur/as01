@@ -1,0 +1,5 @@
+To: nadirmansur89@gmail.com
+From: atahualpa@as01
+Subject: Prueba de correo electrónico
+
+Hola, esto es una prueba de correo electrónico enviado desde Postfix.
