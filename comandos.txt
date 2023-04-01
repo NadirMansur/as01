@@ -1,13 +1,34 @@
-//comando para ver log de Cron
-tail -n 20 /var/log/syslog | grep CRON
-
 //para entrar en el servidor remote-Local
 ssh atahualpa@192.168.100.28
+
+//ingresar a un archivo
+cat /archivo/
+
+//ejecutar como administrador
+sudo
+
+//comando para ver log de Cron
+tail -n 20 /var/log/syslog | grep CRON
 
 //modificar procesos automaticos
 crontab -e
 
-//temperatura el CPU //desde as01
-node coreTemp.js
+//temperatura el CPU  
+node as01/coreTemp.js
+
+//apagar el server 
+sudo shutdown -h
 
 // hostname
+
+//se encuentra el servicio de correo activo postfix
+sudo systemctl status postfix
+
+//mandar un mail 
+echo "Correo de prueba" | mail -s "Asunto del correo" usuario@dominio.com
+
+//archivo logs email en tiempo real
+sudo tail -f /var/log/mail.log
+//leer el archivo log email
+sudo less /var/log/mail.log
+
