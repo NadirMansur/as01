@@ -2,7 +2,7 @@
 const { exec } = require('child_process');
 
 // Ejecutar el comando "sensors" en la terminal
-console.log(
+
 exec('sensors', (error, stdout, stderr) => {
 console.log("////////////////////////////////")
   if (error) {
@@ -13,4 +13,3 @@ console.log("////////////////////////////////")
   console.error(`stderr: ${stderr}`);
   console.log("////////////////////////////////")
 })
-)
