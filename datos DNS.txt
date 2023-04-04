@@ -1,0 +1,26 @@
+---- Servers and domain names check
+
+Getting IP for NS1.HOSTRY.COM: 185.186.246.19
+Getting IP for NS2.HOSTRY.COM: 206.54.189.187
+Getting IP for NS3.HOSTRY.COM: 195.123.233.100
+Getting IP for NS4.HOSTRY.COM: 45.32.157.198
+
+---- Checking SOA records for ATAHUALPA.EU.ORG
+
+SOA from NS1.HOSTRY.COM at 185.186.246.19: serial 2023040201 (360.313 ms)
+SOA from NS2.HOSTRY.COM at 206.54.189.187: serial 2023040201 (117.150 ms)
+SOA from NS3.HOSTRY.COM at 195.123.233.100: serial 2023040201 (75.814 ms)
+SOA from NS4.HOSTRY.COM at 45.32.157.198: serial 2023040201 (19.432 ms)
+
+---- Checking NS records for ATAHUALPA.EU.ORG
+
+NS from NS1.HOSTRY.COM at 185.186.246.19: ok (17.512 ms)
+NS from NS2.HOSTRY.COM at 206.54.189.187: ok (118.843 ms)
+NS from NS3.HOSTRY.COM at 195.123.233.100: ok (79.199 ms)
+NS from NS4.HOSTRY.COM at 45.32.157.198: ok (22.728 ms)
+
+
+No error, storing for validation...
+Saved as request 20230402191930-arf-51193
+
+Done

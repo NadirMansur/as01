@@ -1,17 +1,37 @@
 //para entrar en el servidor remote-Local
 ssh atahualpa@192.168.100.28
 
+//ingresar como root 
+sudo -i
+
+
+//carpetas de configuracion bind RED
+/etc/bind
+
+//bind estatus
+service bind9 status
+
 //ingresar a un archivo
 cat /archivo/
 
 //ejecutar como administrador
 sudo
 
+//comando para ver si Cron esta activo
+systemctl status cron.service
+
 //comando para ver log de Cron
 tail -n 20 /var/log/syslog | grep CRON
 
 //modificar procesos automaticos
 crontab -e
+
+//puedes ejecutar:
+node as01/coreTemp.js > /ruta/al/archivo.log
+//Esto redirigirá la salida estándar del programa al archivo especificado.
+//Si el archivo no existe, se creará automáticamente. Si ya existe, la salida del programa se agregará al final del archivo.
+//También puedes utilizar el doble operador de redirección de salida >> para agregar la salida del programa al final del archivo existente en lugar de sobrescribirlo
+node as01/coreTemp.js >> /ruta/al/archivo.log
 
 //temperatura el CPU  
 node as01/coreTemp.js
